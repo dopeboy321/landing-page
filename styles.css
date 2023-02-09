@@ -4,40 +4,52 @@
  margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    
+}
 
 div {
  border: 2px solid red;
 }
 
-.navbar {
-    background-color: #1F2937;
+.logo {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 16px 15%;
     color: white;
-    
 }
 
-.main-left {
+
+
+ul {
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    gap: 26px;
+}
+
+a {
+text-decoration: none;
+color: white;
 }
 
 .main {
-    background-color: #1F2937;
-    color: white;
-    height: 500px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    margin: 5% 15%;
 }
 
-.img {
-    width: 500px;
-    height: 150px;
-    background-color: grey;
-    display: flex;
-    align-items: center;
-    margin: 20px;
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.button {
+}
+
+
+.container1 {
+
 }
