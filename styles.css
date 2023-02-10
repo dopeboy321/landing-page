@@ -13,6 +13,7 @@ body {
 display: flex;
 flex-direction: column;
 background-color: white;
+font-family: Arial, Helvetica, sans-serif
     
 }
 
@@ -26,7 +27,7 @@ justify-content: space-between;
 align-items: center;
 color: white;
 margin: 0 15%;
-padding: 10px 0px;
+padding: 40px 20px;
 }
 
 .logo strong {
@@ -69,6 +70,7 @@ h1 {
 font-size: 48px;
 font-weight: bolder;
 color: #F9FAF8;
+margin: 0 20px;
 }
 
 p {
@@ -76,16 +78,22 @@ font-size: 18px;
 color: #E5E7EB;
 }
 
+.main p {
+  padding-top: 20px;
+margin: 0 20px;
+}
+
 .button {
- margin: 15px 0;
+ margin: 15px 20px;
 }
    
 button {
 background-color: #3882F6;
 color: white;
-padding: 10px 20px;
+padding: 10px 40px;
 border-radius: 8%;
 border: none;
+font-size: 20px;
 }
 
 .information {
@@ -125,20 +133,20 @@ border: 3px solid #3882f6;
  width: 150px;
 }
 
-.end {
+.middler {
     background-color: #E5E7EB;
-    height: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
-.end p {
+.middler p {
  color: #1f2937;
  font-size: 36px;
  font-style: italic;
- width: 700px;
+ width: 750px;
  
 }
 
@@ -148,5 +156,67 @@ justify-content: flex-end;
 font-size: 22px;
 font-style: italic;
 color: #1f2937;
-padding-top: 10px;
+padding: 30px 0px;
+}
+
+.end {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.signup {
+  background-color: #3882F6;
+  height: 125px;
+  width: 900px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.signuptxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 650px;
+  padding: 10px 90px;
+}
+
+.signuptxt h3 {
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.signuptxt p {
+  color: #E5E7EB;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 80px;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endbutton button {
+  border: 2px solid white;
+  margin-right: 100px;
+  margin-top: 10px;
+  padding: 7px 25px;
+  border-radius: 8px;
+  font-size: 15px;
 }
